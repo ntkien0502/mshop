@@ -1,0 +1,380 @@
+﻿a:hover {
+    text-decoration: none;
+}
+/*============================================= Content trong dialog của trang Customer ====================================================*/
+.dialog-addcustomer-content {
+    height: auto;
+    width: auto;
+    font-family: TahomaCustom !important;
+    display: none;
+}
+/*Phần nhập / hiển thị dữ liệu*/
+.dialog-content-infor {
+    height: auto;
+}
+
+/*Từng dòng tiêu đề và nội dung*/
+.row {
+    padding: 0px;
+    margin: 0px;
+    height: 28px;
+    font-size: 13px;
+}
+
+row-textarea {
+    padding: 0px;
+    margin: 0px;
+    min-height: 50px;
+    font-family: TahomaCustom !important;
+    font-size: 13px;
+}
+/*Phần tiêu đề*/
+.dialog-row-infor-title {
+    height: 24px;
+    width: 156px;
+    padding: 2px 5px;
+}
+
+.dialog-row-infor-title-left {
+    margin: 0px 4px 0px 0px;
+}
+
+.dialog-row-infor-title-middle {
+    margin-left: 8px;
+    margin-right: 4px;
+}
+
+.lbl-require {
+    color: red;
+    margin-left: 5px;
+}
+/*Phần Input dữ liệu*/
+.dialog-row-infor-input {
+    margin: 0px 0px 0px 4px;
+    width: 190px;
+    height: 24px;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+    .dialog-row-infor-input::selection {
+        border: 1px solid #0072bc;
+    }
+/*Phần intput cho checkbox*/
+.dialog-row-infor-checkbox {
+    margin: 0px 0px 0px 4px;
+    width: 300px;
+    height: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+/*Phần intput cho radio*/
+.dialog-row-infor-radio {
+    margin: 0px 0px 0px 4px;
+    width: 400px;
+    height: 24px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.dialog-checkbox-text {
+    margin: 0px 8px;
+}
+/*Input là text kéo tài trên 1 dòng*/
+.dialog-row-infor-input-onerow {
+    margin: 0px 4px;
+    border: 1px solid #ccc;
+    height: 24px;
+    width: 521px;
+}
+/*Input là textarea*/
+.dialog-row-infor-input-area {
+    margin: 0px 4px;
+    width: 552px;
+    min-height: 48px;
+    border: none !important;
+}
+/*Input là text*/
+.dialog-row-infor-input-text {
+    height: 22px;
+    border: none;
+    padding: 3px 5px;
+    width: 100%;
+}
+
+    .dialog-row-infor-input-text:focus {
+        border: none;
+        outline: none;
+    }
+/*Những input phải nhập số thì căn phải*/
+.dialog-row-infor-input-text-number {
+    text-align: right;
+}
+/*Gán độ rộng cho từng input trong các dòng nhập liệu khác nhau*/
+.dialog-row-infor-input-calendar {
+    width: 166px;
+}
+
+.dialog-row-infor-input-phone {
+    width: 144px;
+}
+
+
+.dialog-row-infor-input-calendar:focus {
+    border: none;
+    outline: none;
+}
+
+
+.dialog-row-infor-input-textarea {
+    border: 1px solid #ccc;
+    height: 48px;
+    padding: 3px 5px;
+    width: 100%;
+    resize: none;
+}
+
+    .dialog-row-infor-input-textarea:focus {
+        border: 1px solid #0072bc;
+        outline: none;
+    }
+/*Các option trong từng input khi thực hiện nhập liệu*/
+.dialog-row-infor-option {
+    height: 22px;
+    width: 22px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+/*Gán lại hình ảnh cho từng lựa chọn*/
+.dialog-row-infor-calendar-option {
+    background-image: url('/Contents/Images/ImgDialog/date-trigger.png');
+}
+
+.dialog-row-infor-combobox-option {
+    background-image: url('/Contents/Images/ImgDialog/trigger-2.png');
+}
+
+.dialog-row-infor-plus-option {
+    background-image: url('/Contents/Images/ImgDialog/add-blue-icon.png');
+    background-position: 4px 4px;
+}
+/*Focus vào input thì div bao ngoài đổi màu - JS*/
+.border-focus {
+    border: 1px solid #0072bc;
+}
+
+.border-error {
+    border: 1px solid red;
+}
+/*==========================================================Phần các nút thao tác=======================================================*/
+.dialog-content-task {
+    height: 25px;
+    margin: 8px 0px;
+}
+/*Các nút thao tác*/
+
+.dialog-button {
+    display: inline-flex;
+    position: relative;
+    height: 25px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+    .dialog-button:hover {
+        background-color: #cae0be;
+        border-color: #0072bc;
+    }
+
+    .dialog-button:focus {
+        border-color: #0072bc;
+        outline: none;
+    }
+/*Căn vị trí cho các nút*/
+.dialog-button-save {
+    left: 260px;
+}
+
+.dialog-button-saveduplicate {
+    left: 268px;
+}
+
+.dialog-button-addsave {
+    left: 276px;
+}
+
+.dialog-button-cancel {
+    left: 282px;
+}
+
+.dialog-button-display {
+    padding: 3px;
+    width: 75px;
+    text-align: center;
+}
+/*Đặt độ rộng cho nút khác độ rộng mặc định*/
+.dialog-button-display-autowidth {
+    width: 133px !important;
+    padding: 3px;
+    text-align: center;
+}
+/*Nội dung gồm ảnh nền và text trong button*/
+.dialog-button-display-content {
+    display: flex;
+    padding-bottom: 1px;
+    height: 16px;
+    justify-content: center;
+}
+
+    .dialog-button-display-content .dialog-button-icon {
+        height: 16px;
+        width: 16px;
+        background-repeat: no-repeat;
+        margin-top: 1px;
+    }
+
+    .dialog-button-display-content .dialog-button-text {
+        height: 16px;
+        margin: 0px 5px;
+    }
+/*Gán ảnh nền cho các nút*/
+.dialog-button-icon-save {
+    background-repeat: no-repeat;
+    background-image: url('/Contents/Images/ImgDialog/Save16.png');
+}
+
+.dialog-button-icon-saveduplicate {
+    background-image: url('/Contents/Images/ImgDialog/common-icon.png');
+    background-position: -952px -127px;
+}
+
+.dialog-button-icon-addsave {
+    background-image: url('/Contents/Images/ImgDialog/common-icon.png');
+    background-position: -26px -127px;
+}
+
+
+
+.dialog-button-icon-cancel {
+    background-image: url('/Contents/Images/ImgDialog/common-icon.png');
+    background-position: -252px -127px;
+}
+/*=================================== Dialog mới theo demo =========================================*/
+.dialog-message {
+    padding: 10px;
+    height: 64px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.dialog-message-icon {
+    height: 44px;
+    width: 44px;
+    background-image: url('/Contents/Images/ImgDialog/icon-popup.png');
+    background-repeat: no-repeat;
+}
+
+.dialog-warnning-icon {
+    height: 44px;
+    width: 44px;
+    background-image: url('/Contents/Images/ImgDialog/icon-popup.png');
+    background-repeat: no-repeat;
+    background-position: -56px -2px;
+}
+
+.dialog-message-text {
+    font-family: Roboto;
+    font-size: 13px;
+    height: 44px;
+    width: 322px;
+    margin-left: 8px;
+    color: #000000;
+}
+
+.boled-dialog-message {
+    color: #df4646;
+}
+/*Vùng các nút thao tác trong dialog*/
+.dialog-task {
+    height: 50px;
+    width: 100%;
+    padding: 8px 0px 8px 6px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.dialog-task-button {
+    height: 32px;
+    width: 75px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0px 4px;
+    padding: 7px 8px;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+    .dialog-task-button:focus {
+        outline: none;
+        border: none;
+    }
+
+.dialog-task-button-icon {
+    height: 16px;
+    width: 16px;
+    background-repeat: no-repeat;
+}
+
+.dialog-task-button-text {
+    padding: 0px 5px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.dialog-task-button-text-delete {
+    color: #ffffff;
+}
+
+.dialog-task-button-text-confirm {
+    color: white;
+    margin-left: 3px;
+}
+
+.dialog-task-button-text-cancel {
+    color: #026b97;
+    font-size: 12px !important;
+    padding: 0px !important;
+}
+
+.dialog-task-button-delete {
+    background-color: #df4646;
+}
+
+.dialog-task-button-confirm {
+    background-color: #026B97;
+}
+
+.dialog-task-button-cancel {
+}
+
+
+.dialog-task-button-icon-delete {
+    background-image: url('/Contents/Images/ImgDialog/delete-white.png');
+    background-position: 2px 0px;
+}
+
+.dialog-task-button-icon-cancel {
+    background-image: url('/Contents/Images/ImgDialog/cancel-blue.png');
+    background-position: 2px 2px;
+}
+
+
+.dialog-task-button-cancel {
+    background-color: #ffffff;
+}

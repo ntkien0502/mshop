@@ -1,0 +1,105 @@
+﻿.taskbar {
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+    height: 53px;
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #4b4c4c;
+    background-color: white;
+    border: 1px solid #e5e6eb;
+}
+
+.taskbar-item {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 3px 0px 4px 0px;
+}
+/*Các nút phân trang*/
+.btn-paging {
+    height: 24px;
+    width: 24px;
+    border: 1px solid #026b97;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0px 1px;
+    background-image: url('/Contents/Images/ImgToolbar/common-icon.png');
+    background-repeat: no-repeat;
+}
+/*Gán lại hình nền cho các nút phân trang*/
+.btn-paging-firstpage {
+    background-position: -649px -124px;
+}
+
+.btn-paging-prepage {
+    background-position: -700px -124px;
+}
+
+.btn-paging-nextpage {
+    background-position: -749px -124px;
+}
+
+.btn-paging-lastpage {
+    background-position: -798px -124px;
+}
+
+.btn-paging-reload {
+    background-position: -849px -124px;
+}
+/* Phần lable hiển thị text*/
+.lbl-paging {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 4px;
+    margin: 0px 9px 0px 1px;
+}
+
+.lbl-record-number {
+    position: absolute;
+    right: 20px;
+}
+/*Vùng nhập số trang*/
+.paging-pagenumber {
+    height: 26px;
+    width: 50px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.paging-pagenumber-input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding: 4px 8px;
+    text-align: center;
+}
+/*option lựa chọn số bản ghi trên 1 trang */
+.paging-record-option {
+    height: 26px;
+    width: 46px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 3px;
+}
+
+.paging-record-select:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+.paging-record-select {
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding-left: 4px;
+    -webkit-appearance: none;
+    background-image: url('/Contents/Images/ImgHeader/arrow-down-line.png');
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-position: 30px 10px;
+}

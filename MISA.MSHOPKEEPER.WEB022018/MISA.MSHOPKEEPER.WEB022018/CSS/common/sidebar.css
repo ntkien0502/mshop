@@ -1,0 +1,99 @@
+﻿/*Phần menu giữa*/
+ .sidebar-center-menu {
+    left: 0px;
+    height: auto;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    color: #fff;
+}
+/*Từng item trong menu*/
+.center-menu-item {
+    height: 40px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+    .center-menu-item:hover {
+        background-color: #00577b;
+    }
+
+.menu-item-icon {
+    position: absolute;
+    height: 38px;
+    left: 8px;
+    top: 2px;
+    width: 22px;
+    text-align: center;
+    background-image: url('/Contents/Images/ImgSidebar/slibarmenu.png');
+    background-repeat: no-repeat;
+}
+/*Định nghĩa lại các icon trong từng item*/
+.menu-item-icon-dashboad{
+    background-position: 0 6px;
+}
+.menu-item-icon-report {
+    background-position: 0 -273px;
+}
+
+.menu-item-icon-delivery {
+    background-image: url('/Contents/Images/ImgSidebar/ic_sogiaohang.png');
+    background-position: 4px 9px;
+}
+
+.menu-item-icon-purchare {
+    background-position: 0 -33px;
+}
+.menu-item-icon-stock {
+    background-position: 0 -75px;
+}
+.menu-item-icon-cash {
+    background-position: 0 -115px;
+}
+.menu-item-icon-payment {
+    background-position: -2px -154px;
+}
+.menu-item-icon-sale{
+    background-position: 0 -193px;
+}
+.menu-item-icon-dictionary{
+    background-position: 0 -233px;
+}
+.menu-item-icon-setting{
+    background-position: 0 -313px;
+}
+.menu-item-icon-support{
+    background-position: 0 -383px;
+}
+.menu-item-icon-ocm {
+    background-image: url('/Contents/Images/ImgSidebar/ic_ocm_logo.png');
+    background-position: 4px 9px;
+}
+.menu-item-icon-fiveshop {
+    background-image: url('/Contents/Images/ImgSidebar/icon_5shop_white_24_1.png');
+    background-position: 0px 5px;
+}
+.menu-item-icon-last {
+    background-image: url('/Contents/Images/ImgSidebar/slibarmenu.png');
+    background-position: 0px -350px;
+}
+/*Phần text của item trong menu*/
+.menu-item-text {
+    padding-left: 40px;
+    width: 100%;
+    height: 27px;
+    position: absolute;
+    bottom: 3px;
+}
+/*Phần menu cuối*/
+
+/**/
+.last-center-menu-item{
+    height: 41px;
+    border-top:1px solid #004765!important;
+    background-color: #00577b!important;
+}

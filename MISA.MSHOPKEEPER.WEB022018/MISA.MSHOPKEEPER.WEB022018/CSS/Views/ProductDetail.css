@@ -1,0 +1,35 @@
+﻿body {
+    font-size:13px;
+    font-family: 'Roboto',Tahoma,sans-serif;
+    min-width: 1024px;
+}
+/*Header*/
+.header {
+    height: 52px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    display:flex;
+}
+/*Sidebar*/
+.sidebar {
+    background-color: #026b97;
+    width: 140px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    top: 52px;
+}
+/*Content*/
+.content {
+    position: absolute;
+    padding: 8px;
+    float: right;
+    left: 140px;
+    top: 52px;
+    bottom: 0px;
+    right: 0px;
+    background-color:#e5e6eb;
+    padding:8px;
+    border-top:1px solid #e5e6eb;
+}

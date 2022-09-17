@@ -1,0 +1,499 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Thời trang MM Thành Công | MShopKeeper.vn</title>
+    <meta charset="utf-8" />
+    <!-- Nhúng các thư viện Css -->
+    <link href="/CSS/bootstrap.min.css" rel="stylesheet" />
+    <link href="/CSS/lib/jquery-ui.min.css" rel="stylesheet" />
+    <link href="/CSS/Views/Product.css" rel="stylesheet" />
+    <link href="/CSS/common/header.css" rel="stylesheet" />
+    <link href="/CSS/common/sidebar.css" rel="stylesheet" />
+    <link href="/CSS/Views/ProductDetail/toptoolbar.css" rel="stylesheet" />
+    <link href="/CSS/Views/ProductDetail/productcontent.css" rel="stylesheet" />
+    <link href="/CSS/Views/ProductDetail/bottomtoolbar.css" rel="stylesheet" />
+    <link href="/CSS/lib/jquery-ui.min.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- =============================================HEADER================================================================= -->
+    <div class="header">
+        <!-- Logo -->
+        <div class="logo">
+            <a href="#">
+                <img class="logo-icon" src="/Contents/Images/ImgHeader/logo-mshopkeeper.png" />
+            </a>
+        </div>
+        <!-- Panel -->
+        <div class="header-panel">
+            <!-- Panel Title -->
+            <div class="panel-title">
+                <div class="panel-title-text">Hàng hóa / Thêm mới</div>
+            </div>
+            <!-- Các lựa chọn trên header -->
+            <div class="panel-item">
+                <a class="panel-account">
+                    <span class="panel-account-icon"></span>
+                    <span class="panel-text-in-control panel-account-name">Lâm Thế Anh</span>
+                    <span class="panel-select-button panel-account-select"></span>
+                </a>
+                <a class="panel-shop">
+                    <span class="panel-text-in-control panel-shop-name">Thời trang MM Thành Công</span>
+                    <span class="panel-select-button panel-shop-select"></span>
+                </a>
+                <!--<a class="panel-back">
+                    <span class="panel-back-icon"></span>
+                    <span class="panel-back-text">Quay lại trang bắt đầu sử dụng</span>
+                </a>-->
+            </div>
+            <!-- Task trợ giúp -->
+            <div class="panel-task">
+                <div class="panel-task-item">
+                    <a>
+                        <div class="panel-task-item-select">
+                            <div class="panel-task-item-select-icon panel-icon-notify">
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="panel-task-item">
+                    <a>
+                        <div class="panel-task-item-select">
+                            <div class="panel-task-item-select-icon panel-icon-help">
+
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =============================================SIDEBAR================================================================ -->
+    <div class="sidebar">
+        <div class="sidebar-center-menu">
+            <a>
+                <div class="center-menu-item">
+                    <span class="menu-item-icon menu-item-icon-dashboad"></span>
+                    <span class="menu-item-text">Tổng quan</span>
+                </div>
+            </a>
+            <a>
+                <div class="center-menu-item">
+                    <span class="menu-item-icon menu-item-icon-report"></span>
+                    <span class="menu-item-text">Báo cáo</span>
+                </div>
+            </a>
+            <a>
+                <div class="center-menu-item">
+                    <span class="menu-item-icon menu-item-icon-delivery"></span>
+                    <span class="menu-item-text">Sổ giao hàng</span>
+                </div>
+            </a>
+            <a>
+                <div class="center-menu-item ">
+                    <span class="menu-item-icon menu-item-icon-purchare"></span>
+                    <span class="menu-item-text">Mua hàng</span>
+                </div>
+            </a>
+            <a>
+                <div class="center-menu-item">
+                    <span class="menu-item-icon menu-item-icon-stock"></span>
+                    <span class="menu-item-text">Kho</span>
+                </div>
+            </a>
+            <a>
+                <div class="center-menu-item">
+                    <span class="menu-item-icon menu-item-icon-cash"></span>
+                    <span class="menu-item-text">Quỹ tiền</span>
+                </div>
+            </a>
+            <a>
+                <div class="center-menu-item">
+                    <span class="menu-item-icon menu-item-icon-payment"></span>
+                    <span class="menu-item-text">Chi phí</span>
+                </div>
+            </a>
+            <a>
+                <div class="center-menu-item">
+                    <span class="menu-item-icon menu-item-icon-sale"></span>
+                    <span class="menu-item-text">Khuyến mại</span>
+                </div>
+            </a>
+            <a>
+                <div class="center-menu-item">
+                    <span class="menu-item-icon menu-item-icon-dictionary"></span>
+                    <span class="menu-item-text">Danh mục</span>
+                </div>
+            </a>
+            <a>
+                <div class="center-menu-item">
+                    <span class="menu-item-icon menu-item-icon-setting"></span>
+                    <span class="menu-item-text">Thiết lập</span>
+                </div>
+            </a>
+            <a>
+                <div class="center-menu-item">
+                    <span class="menu-item-icon menu-item-icon-support"></span>
+                    <span class="menu-item-text">Trợ giúp</span>
+                </div>
+            </a>
+            <a>
+                <div class="center-menu-item">
+                    <span class="menu-item-icon menu-item-icon-ocm"></span>
+                    <span class="menu-item-text">OCM</span>
+                </div>
+            </a>
+            <a>
+                <div class="center-menu-item">
+                    <span class="menu-item-icon menu-item-icon-fiveshop"></span>
+                    <span class="menu-item-text">5Shop</span>
+                </div>
+            </a>
+            <a>
+                <div class="center-menu-item last-center-menu-item">
+                    <span class="menu-item-icon menu-item-icon-last"></span>
+                    <span class="menu-item-text">Hàng hóa</span>
+                </div>
+            </a>
+        </div>
+        <!--<div class="sidebar-bottom-menu">
+            <a>
+                <div class="bottom-menu-item">
+                    <span class="menu-item-icon menu-item-icon-fiveshop"></span>
+                    <span class="menu-item-text">5Shop</span>
+                </div>
+            </a>
+        </div>-->
+    </div>
+    <!-- =============================================CONTENT================================================================ -->
+    <div class="content">
+        <!-- Top toolbar -->
+        <div class="toptoolbar">
+            <div class="toolbar-button first-button" id="btnProductTopSave">
+                <a class="toolbar-button-content">
+                    <span class="toolbar-button-icon toolbar-icon-add"></span>
+                    <span class="toolbar-button-text first-button-text">Lưu</span>
+                </a>
+            </div>
+            <div class="toolbar-button" id="btnProductTopSaveDuplicate">
+                <a class="toolbar-button-content">
+                    <span class="toolbar-button-icon toolbar-icon-saveduplicate"></span>
+                    <span class="toolbar-button-text">Lưu và nhân bản</span>
+                </a>
+            </div>
+            <div class="toolbar-button" id="btnProductTopSaveAdd">
+                <a class="toolbar-button-content">
+                    <span class="toolbar-button-icon toolbar-icon-saveadd"></span>
+                    <span class="toolbar-button-text">Lưu và thêm mới</span>
+                </a>
+            </div>
+            <div class="toolbar-button last-button" id="btnProductTopCancel">
+                <a href="Product.html" class="toolbar-button-content">
+                    <span class="toolbar-button-icon toolbar-icon-cancel"></span>
+                    <span class="toolbar-button-text">Hủy bỏ</span>
+                </a>
+            </div>
+        </div>
+        <div class="productcontent">
+            <!-- Thông tin cơ bản -->
+            <div class="product-type-detail">
+                <div class="content-group-lable">
+                    THÔNG TIN CƠ BẢN
+                </div>
+                <div class="content-status-option">
+                    <div>Trạng thái kinh doanh</div>
+                    <div class="status-toption-radio">
+                        <input type="radio" name="rdoStatus" />
+                        <span class="status-toption-radio-text row-option-text">Đang kinh doanh</span>
+                    </div>
+                    <div class="status-toption-radio">
+                        <input type="radio" name="rdoStatus" />
+                        <span class="status-toption-radio-text row-option-text">Ngừng kinh doanh</span>
+                    </div>
+                </div>
+                <div class="row-detail">
+                    <div class="row-detail-title"><span>Tên hàng hóa</span><span style="color:red;margin-left:3px;">*</span></div>
+                    <div class="row-input-div-productname">
+                        <input id="txtproductname" class="row-detail-input row-detail-input-option" style="width:239px;" type="text" />
+                        <span class="row-detail-input-error"></span>
+                    </div>
+                </div>
+                <div class="row-detail">
+                    <div class="row-detail-title"><span>Nhóm hàng hóa</span></div>
+                    <div>
+                        <div class="row-input-div">
+                            <input class="row-detail-input row-detail-input-option" id="txtproductcategory" type="text" placeholder="Nhập để tìm kiếm" />
+                            <span class="row-detail-input-cbobutton" id="cbocategoryoption"></span>
+                            <span class="row-detail-input-addbutton"></span>
+                        </div>
+                        <div class="input-list-option" id="divcategoryoption">
+                            <ul class="input-list-option-block input-category-option-block">
+                                <li>Đồ nữ</li>
+                                <li class="input-list-option-block-option">Áo sơ mi nữ</li>
+                                <li class="input-list-option-block-option">Áo kiểu</li>
+                                <li class="input-list-option-block-option">Áo thun nữ</li>
+                                <li class="input-list-option-block-option">Chân váy</li>
+                                <li class="input-list-option-block-option">Váy liền</li>
+                                <li class="input-list-option-block-option">Quần đùi nữ</li>
+                                <li class="input-list-option-block-option">Quần lửng nữ</li>
+                                <li class="input-list-option-block-option">Áo len</li>
+                                <li class="input-list-option-block-option">Sandal</li>
+                                <li>Đồ nam</li>
+                                <li class="input-list-option-block-option">Áo sơ mi nam</li>
+                                <li class="input-list-option-block-option">Áo thu nam</li>
+                                <li class="input-list-option-block-option">Quần dài nam</li>
+                                <li class="input-list-option-block-option">Quần jean nam</li>
+                                <li class="input-list-option-block-option">Áo vest nam</li>
+                                <li class="input-list-option-block-option">Quần đùi nam</li>
+                                <li>Khác</li>
+                                <li>Giày</li>
+                                <li>Mỹ phầm</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-detail">
+                    <div class="row-detail-title"><span>Mã SKU</span></div>
+                    <div class="row-input-div">
+                        <input class="row-detail-input" type="text" />
+                    </div>
+                </div>
+                <div class="row-detail">
+                    <div class="row-detail-title"><span>Mã vạch</span></div>
+                    <div class="row-input-div">
+                        <input class="row-detail-input" type="text" />
+                    </div>
+                </div>
+
+                <div class="row-detail">
+                    <div class="row-detail-title"><span>Giá mua</span><span class="row-detail-title-tip"></span></div>
+                    <div class="row-input-div row-input-div-halfwidth">
+                        <input class="row-detail-input" type="text" />
+                    </div>
+                </div>
+                <div class="row-detail">
+                    <div class="row-detail-title"><span>Giá bán</span></div>
+                    <div class="row-input-div row-input-div-halfwidth">
+                        <input class="row-detail-input" type="text" />
+                    </div>
+                </div>
+                <div class="row-detail">
+                    <div class="row-detail-title"><span>Đơn vị tính</span></div>
+                    <div>
+                        <div class="row-input-div">
+                            <input class="row-detail-input row-detail-input-option" id="txtcounterproduct" style="width:239px;" type="text" placeholder="Nhập để tìm kiếm" />
+                            <span class="row-detail-input-cbobutton" id="cbocounteroption"></span>
+                        </div>
+                        <div class="input-list-option input-list-option-counter" id="divcounteroption">
+                            <ul class="input-list-option-block input-counter-option-block">
+                                <li>Cái</li>
+                                <li>Bộ</li>
+                                <li>Chiếc</li>
+                                <li>Chục</li>
+                                <li>Đôi</li>
+                                <li>Cái</li>
+                                <li>Bộ</li>
+                                <li>Chiếc</li>
+                                <li>Chục</li>
+                                <li>Đôi</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-detail">
+                    <div class="row-detail-title"><span>Tồn kho ban đầu</span></div>
+                    <div class="row-input-div row-input-div-halfwidth">
+                        <input class="row-detail-input" type="text" />
+                    </div>
+                    <span class="row-detail-input-tip"><i>Tồn kho ban đầu chỉ được nhập khi thêm mới hàng hóa</i></span>
+                </div>
+                <div class="row-detail">
+                    <div class="row-detail-title"><span>Định mức tồn kho</span></div>
+                    <div class="row-input-div-manyinput">
+                        <div class="row-input-div-manyinput-content">
+                            <div class="row-input-div-manyinput-content-title">Tối thiểu</div>
+                            <input class="row-input-div-manyinput-content-input" type="text" value="0" maxlength="14" />
+                        </div>
+                        <div class="row-input-div-manyinput-content">
+                            <div class="row-input-div-manyinput-content-title">Tối đa</div>
+                            <input class="row-input-div-manyinput-content-input" type="text" value="0" maxlength="14" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row-detail">
+                    <div class="row-detail-title"><span>Vị trí lưu trữ trong kho</span></div>
+                    <div class="row-input-div">
+                        <input class="row-detail-input" type="text" />
+                    </div>
+                </div>
+                <div class="row-detail">
+                    <div class="row-detail-title"><span>Vị trí trưng bày</span></div>
+                    <div class="row-input-div">
+                        <input class="row-detail-input" type="text" />
+                    </div>
+                </div>
+                <div class="row-display-option">
+                    <input type="checkbox" />
+                    <span class="row-option-text">Hiển thị trên màn hình bán hàng</span>
+                    <span class="row-detail-title-tip"></span>
+                </div>
+            </div>
+            <!-- Phần thông tin thuộc tính -->
+            <div class="product-type-detail">
+                <div class="content-group-lable">
+                    THÔNG TIN THUỘC TÍNH
+                </div>
+                <div class="row-detail row-detail-property">
+                    <div class="row-detail-title"><span>Thuộc tính</span></div>
+                    <div class="row-input-div-manyinput ">
+                        <div class="row-input-div-manyinput-content input-manyinput-property">
+                            <div class="row-input-div-manyinput-content-title input-title-property">Màu sắc</div>
+                            <div class="row-input-property-content">
+                                <div class="input-property-tag">
+                                    <ul id="inputcolorlist" class="input-property-list">
+                                        <!--<li class="input-property-tag-item">
+                                            <div class="input-property-tag-item-content">
+                                                <span>test</span><span class="input-property-tag-item-dispose"></span>
+                                            </div>
+                                        </li>-->
+                                    </ul>
+                                </div>
+                                <input id="txtColorInput" class="input-colour-property" type="text" placeholder="Xanh, Đỏ, Vàng,..." maxlength="80" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-detail row-detail-property">
+                    <div class="row-detail-title"><span></span></div>
+                    <div class="row-input-div-manyinput ">
+                        <div class="row-input-div-manyinput-content input-manyinput-property">
+                            <div class="row-input-div-manyinput-content-title input-title-property">Size</div>
+                            <div class="row-input-property-content">
+                                <div class="input-property-tag">
+                                    <ul id="inputsizelist" class="input-property-list">
+                                        <!--<li class="input-property-tag-item">
+                                            <div class="input-property-tag-item-content">
+                                                <span>test</span><span class="input-property-tag-item-dispose"></span>
+                                            </div>
+                                        </li>-->
+                                    </ul>
+                                </div>
+                                <input id="txtSizeInput" class="input-colour-property" type="text" placeholder="S, M, L,..." maxlength="80" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bảng chi tiết hàng hóa -->
+                <div id="tblproductdetail" class="detail-product-div" style="display:none;">
+                    <div class="row-detail-title"><span>Chi tiết thuộc tính</span></div>
+                    <div class="detail-product-table">
+                        <div class="detail-product-table-header">
+                            <div class="pro-detail-header-column pro-detail-header-productname"><span>Tên hàng hóa</span></div>
+                            <div class="pro-detail-header-column pro-detail-header-sku"><span>Mã SKU</span></div>
+                            <div class="pro-detail-header-column pro-detail-header-barcode"><span>Mã vạch</span></div>
+                            <div class="pro-detail-header-column pro-detail-header-importprice"><span>Giá mua</span></div>
+                            <div class="pro-detail-header-column pro-detail-header-price"><span>Giá bán</span></div>
+                            <div class="pro-detail-header-column table-detail-task-copy non-icon"></div>
+                            <div class="pro-detail-header-column table-detail-task-delete"></div>
+                        </div>
+                        <div class="detail-product-table-body">
+                            <!--<div class="detail-product-table-row">
+                                <div class="pro-detail-row-column pro-detail-header-productname">
+                                    <input class="pro-detail-row-column-input" type="text" />
+                                </div>
+                                <div class="pro-detail-row-column pro-detail-header-sku">
+                                    <input class="pro-detail-row-column-input" type="text" />
+                                </div>
+                                <div class="pro-detail-row-column pro-detail-header-barcode">
+                                    <input class="pro-detail-row-column-input" type="text" />
+                                </div>
+                                <div class="pro-detail-row-column pro-detail-header-importprice">
+                                    <input class="pro-detail-row-column-input pro-detail-input-number" type="text" />
+                                </div>
+                                <div class="pro-detail-row-column pro-detail-header-price" title="Áp dụng chính sách giá">
+                                    <input class="pro-detail-row-column-input pro-detail-input-number" type="text" />
+                                    <span class="row-column-input-price-option"></span>
+                                </div>
+                                <div class="pro-detail-row-column table-detail-task-copy" title="Sao chép giá mua, giá bán và bảng giá xuống các dòng dưới"></div>
+                                <div class="pro-detail-row-column table-detail-task-delete">
+                                    <div class="table-detail-task-delete-icon"></div>
+                                </div>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Phần thông tin bổ sung -->
+            <div class="product-type-detail">
+                <div class="content-group-lable">
+                    THÔNG TIN BỔ SUNG
+                </div>
+                <div class="row-area">
+                    <div class="row-detail-title"><span>Mô tả</span></div>
+                    <textarea class="row-input-textarea"></textarea>
+                </div>
+                <div class="row-image">
+                    <div class="row-detail-title"><span>Ảnh hàng hóa</span></div>
+                    <div class="row-input-image">
+                        <div class="row-input-image-select">
+                            <div class="row-input-image-select-button">
+                                <span class="row-input-image-select-button-icon"></span>
+                                <span>Biểu tượng</span>
+                            </div>
+                        </div>
+                        <div class="row-input-image-display">
+                        </div>
+                        <div class="row-input-image-select-option">
+                            <a class="row-input-image-upload">
+                                <span>...</span>
+                            </a>
+                            <a class="row-input-image-upload row-input-image-cancel">
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row-input-image-explane">
+                        <p>- Lựa chọn biểu tượng để thay thế nếu không có ảnh</p>
+                        <p>- Định dạng ảnh (.jpg, .jpeg, .png, .gif) và dung lượng < 5MB</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Các nút thao tác phía bottom -->
+        <div class="bottomtoolbar">
+            <div class="toolbar-button first-button" id="btnProductBottomSave">
+                <a class="toolbar-button-content">
+                    <span class="toolbar-button-icon toolbar-icon-add"></span>
+                    <span class="toolbar-button-text first-button-text">Lưu</span>
+                </a>
+            </div>
+            <div class="toolbar-button" id="btnProductBottomSaveDuplicate">
+                <a class="toolbar-button-content">
+                    <span class="toolbar-button-icon toolbar-icon-saveduplicate"></span>
+                    <span class="toolbar-button-text">Lưu và nhân bản</span>
+                </a>
+            </div>
+            <div class="toolbar-button" id="btnProductBottomSaveAdd">
+                <a class="toolbar-button-content">
+                    <span class="toolbar-button-icon toolbar-icon-saveadd"></span>
+                    <span class="toolbar-button-text">Lưu và thêm mới</span>
+                </a>
+            </div>
+            <div class="toolbar-button last-button" id="btnProductBottomCancel">
+                <a href="Product.html" class="toolbar-button-content">
+                    <span class="toolbar-button-icon toolbar-icon-cancel"></span>
+                    <span class="toolbar-button-text">Hủy bỏ</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nhúng các thư viện JS -->
+    <script src="/JS/lib/jquery-3.3.1.min.js"></script>
+    <script src="/JS/lib/jquery-ui.min.js"></script>
+    <script src="/JS/lib/bootstrap.min.js"></script>
+    <script src="/JS/lib/popper.min.js"></script>
+    <script src="/JS/common/common.js"></script>
+    <script src="/JS/Views/ProductDetail.js"></script>
+</body>
+</html>

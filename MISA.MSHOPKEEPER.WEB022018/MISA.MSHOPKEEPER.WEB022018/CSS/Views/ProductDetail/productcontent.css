@@ -1,0 +1,608 @@
+﻿.productcontent {
+    left: 8px;
+    right: 8px;
+    bottom: 68px;
+    position: absolute;
+    overflow: auto;
+    top: 60px;
+    background-color: white;
+    padding: 8px;
+    color: #404040;
+}
+/*Từng phần nội dung của hàng hóa*/
+.product-type-detail {
+    margin-bottom: 17px;
+}
+
+a {
+    color: #026b97;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+/*=============================== Phần thông tin cơ bản =========================================*/
+/*Các tiêu đề từng group*/
+.content-group-lable {
+    height: 26px;
+    padding: 6px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 1px;
+    white-space: nowrap;
+}
+/*Dòng lựa chọn trạng thái kinh doanh*/
+.content-status-option {
+    height: 32px;
+    width: 100%;
+    margin-left: 8px;
+    margin: 21px 0px 7px 0px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+/**/
+.status-toption-radio {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 127px;
+    margin-right: 13px;
+}
+
+.status-toption-radio-text {
+    margin-left: 4px;
+}
+/*Dong hiển thị dữ liệu*/
+.row-detail {
+    height: 35px;
+    width: 100%;
+    margin: 4px 8px 8px 8px;
+    display: flex;
+}
+/* Vùng lựa chọn laoij hàng*/
+.row-detail-product-category {
+}
+
+.input-list-option {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 265px;
+    overflow: auto;
+    height: 300px;
+    list-style-type: none;
+    font-family: Roboto;
+    box-shadow: 0px 2px 0px 3px #eee9e9;
+    border-radius: 2px;
+}
+
+.input-list-option-counter {
+    height: 260px;
+}
+
+.input-list-option-block {
+    list-style-type: none;
+    padding: 0px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0px;
+}
+
+    .input-list-option-block li {
+        background-color: #ffffff;
+        padding: 2px 4px;
+        cursor: pointer;
+    }
+
+        .input-list-option-block li:hover {
+            background-color: #026b97;
+            color: #ffffff;
+        }
+
+.input-list-option-block-option {
+    list-style-type: none;
+    padding-left: 14px !important;
+}
+/*Vùng nhập Định mức  (2 giá trị đầu vào)*/
+.row-input-div-manyinput {
+    width: auto;
+    display: flex;
+}
+
+.row-input-div-manyinput-content {
+    width: 145px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 14px;
+    display: flex;
+}
+
+.row-input-div-manyinput-content-title {
+    height: 100%;
+    width: 75px;
+    padding: 8px 5px 0px 8px;
+    background-color: #f0f0f0;
+    white-space: nowrap;
+    border-right: 1px solid #ccc;
+}
+
+.row-input-div-manyinput-content-input {
+    height: 100%;
+    width: 68px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    text-align: right;
+}
+
+    .row-input-div-manyinput-content-input:focus {
+        border: 1px solid #77b0e2;
+        outline: none;
+    }
+/*Vùng nhập input cho từng dòng*/
+.row-input-div {
+    width: 265px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    display: flex;
+    height: 35px;
+}
+
+.row-input-div-productname {
+    width: 265px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+/*Title của dòng nhập liệu*/
+.row-detail-title {
+    width: 135px;
+    padding: 6px 5px 0px 0px;
+    color: #212121;
+    display: flex;
+    white-space: nowrap;
+}
+
+.row-detail-title-tip {
+    height: 16px;
+    width: 16px;
+    margin: 2px 0px 0px 7px;
+    background-image: url('/Contents/Images/ImgToolbar/common-icon.png');
+    background-repeat: no-repeat;
+    background-position: -177px -177px;
+}
+/*Phần nhập giá trị*/
+.row-detail-input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+    .row-detail-input:focus {
+        border: none;
+        outline: none;
+    }
+
+.row-detail-input-number {
+    text-align: right;
+}
+/*Input có độ rộng bằng 1 nửa*/
+.row-input-div-halfwidth {
+    width: 130px;
+}
+/*Input cóp option*/
+.row-detail-input-option {
+    width: 215px;
+}
+
+.row-detail-input-tip {
+    padding: 5px 10px;
+}
+/*Các nút có trong input*/
+.row-detail-input-error {
+    width: 24px;
+    height: 100%;
+    background-image: url('/Contents/Images/ImgContent/exclamation.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+    position:relative;
+}
+
+    .row-detail-input-error:after {
+        content: attr(data-title);
+        position: absolute;
+        top: 23px;
+        left: 15px;
+        background: #ec4949;
+        color: white;
+        padding: 8px;
+        border: 1px solid #eee;
+        opacity: 0;
+        transition: 0.5s opacity;
+        width: auto;
+        height: auto;
+        white-space: nowrap;
+        display: flex;
+        border-radius: 5px;
+    }
+    .row-detail-input-error:hover:after {
+        opacity: 1;
+    }
+
+.row-detail-input-cbobutton {
+    cursor: pointer;
+    width: 24px;
+    height: 100%;
+    background-image: url('/Contents/Images/ImgHeader/arrow-down-line.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.row-detail-input-addbutton {
+    cursor: pointer;
+    width: 24px;
+    height: 100%;
+    border-left: 1px solid #ccc;
+    background-image: url('/Contents/Images/ImgContent/quick-add.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*Dòng lựa chọn hiển thị trên màn hình bán hàng*/
+.row-display-option {
+    height: 35px;
+    width: 100%;
+    margin-left: 8px;
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.row-option-text {
+    color: #000000;
+    margin-left: 4px;
+    white-space: nowrap;
+}
+
+
+/*============================================= Phần thông tin thuộc tính =========================================*/
+/*========Phần Thuộc tính==========*/
+.row-detail-property {
+    min-height: 35px;
+    height: auto !important;
+}
+
+.input-manyinput-property {
+    width: auto;
+    min-width: 400px;
+}
+
+.input-colour-property {
+    width: 200px;
+    text-align: left;
+    height: 35px;
+    border: none;
+    padding: 5px 10px;
+}
+
+    .input-colour-property:focus {
+        outline: none;
+    }
+
+.input-title-property {
+    width: 140px;
+}
+/*Phần thẻ tag*/
+.row-input-property-content {
+    height: 100%;
+    width: auto;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*Vùng chứa thẻ tag*/
+.input-property-tag {
+}
+
+.input-property-list {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+/* Định dạng Các thẻ tag*/
+.input-property-tag-item {
+    cursor: pointer;
+    color: white;
+    background-color: #026b97;
+    padding: 4px;
+    margin: 4px;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.input-property-tag-item-content {
+    display: flex;
+}
+
+.input-property-tag-item-dispose {
+    height: 12px;
+    width: 12px;
+    margin: 4px 0px 0px 4px;
+    background-image: url('/Contents/Images/ImgContent/icon-delete.png');
+    background-repeat: no-repeat;
+}
+/*=========Phần chi tiết thuộc tính=================*/
+.detail-product-div {
+    height: 230px;
+    width: 100%;
+    display: flex;
+    margin-left: 8px;
+}
+/*============Bảng chi tiết==============*/
+.detail-product-table {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    margin: 0px 10px;
+    border: 1px solid #ccc;
+}
+
+/*Phần header*/
+.detail-product-table-header {
+    height: 32px;
+    width: 100%;
+    display: flex;
+    background-color: #f0f0f0;
+}
+
+.pro-detail-header-column {
+    height: 100%;
+    min-width: 150px;
+    border-right: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    padding: 7px 10px 6px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+
+/*Phần body*/
+.detail-product-table-body {
+    height: auto;
+    width: 100%;
+}
+
+/*Từng dòng trong body*/
+.detail-product-table-row {
+    height: 32px;
+    display: flex;
+}
+
+/*Màu dòng chẵn*/
+.detail-product-table-row-even {
+    background-color: #f6f6f6;
+}
+
+.pro-detail-row-column {
+    height: 100%;
+    min-width: 150px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: flex;
+}
+
+.pro-detail-header-productname {
+    min-width: 230px;
+    width: 897px;
+}
+
+.pro-detail-header-sku {
+    width: 150px;
+}
+
+.pro-detail-header-barcode {
+    width: 150px;
+}
+
+.pro-detail-header-importprice {
+    width: 150px;
+}
+
+.pro-detail-header-price {
+    width: 160px;
+}
+/*Phần nhập liệu trong từng ô của dòng*/
+.pro-detail-row-column-input {
+    height: 100%;
+    width: 100%;
+    padding: 7px 10px 6px 6px;
+    border: none;
+    border-radius: 3px;
+}
+
+    .pro-detail-row-column-input:focus {
+        border: 1px solid #026b97;
+    }
+
+.pro-detail-input-number {
+    text-align: right;
+}
+
+.row-column-input-price-option {
+    height: 100%;
+    width: 38px !important;
+    cursor: pointer;
+    background-image: url('/Contents/Images/ImgToolbar/common-icon.png');
+    background-repeat: no-repeat;
+    background-position: -1872px -119px;
+}
+
+    .row-column-input-price-option:hover {
+        background-color: #dcf9fa;
+    }
+/*Phần nút lựa chọn Copy hay Xóa*/
+.table-detail-task-option {
+    background-color: #f0f0f0;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.table-detail-task-copy {
+    cursor: pointer;
+    min-width: 40px;
+    width: 40px;
+    background-image: url('/Contents/Images/ImgContent/copy-down.png');
+    background-repeat: no-repeat;
+    background-position: 13px 8px;
+}
+
+    .table-detail-task-copy:hover {
+        background-color: #a7eee8;
+    }
+
+.table-detail-task-delete {
+    cursor: pointer;
+    min-width: 50px;
+    width: 50px;
+    padding: 8px;
+}
+
+    .table-detail-task-delete:hover {
+        background-color: #a7eee8;
+    }
+
+.table-detail-task-delete-icon {
+    height: 16px;
+    width: 25px;
+    background-image: url('/Contents/Images/ImgToolbar/common-icon.png');
+    background-repeat: no-repeat;
+    background-position: 7px -2px;
+}
+/*Bỏ icon trong header của lựa chọn copy và xóa*/
+.non-icon {
+    background-image: none;
+}
+/*=============================== Phần thông tin bổ sung =========================================*/
+
+/*Vùng nhập mô tả */
+.row-area {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    margin: 15px 0px 8px 8px;
+}
+
+.row-input-area {
+    height: 100%;
+    width: 463px;
+}
+
+.row-input-textarea {
+    border-radius: 3px;
+    height: 80px;
+    width: 463px;
+    border-color: #ccc;
+    resize: none;
+}
+
+    .row-input-textarea:focus {
+        border-color: #026b97;
+        outline: none;
+    }
+/*Vùng ảnh hàng hóa*/
+.row-image {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    margin: 8px 0px 8px 8px;
+}
+/*Div hiển thị hình ảnh và các lựa chọn*/
+.row-input-image {
+    height: 100%;
+    width: 200px;
+    border: 1px dashed #5fa2dd;
+}
+
+.row-input-image-select {
+    height: 30px;
+    width: 100%;
+    color: #9e9e9e;
+    font-weight: 600;
+    padding: 2px 5px;
+}
+
+.row-input-image-select-button {
+    border: 1px solid #ccc;
+    padding: 0px 4px;
+    cursor: pointer;
+    cursor: pointer;
+    float: right;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.row-input-image-select-button-icon {
+    margin-right: 4px;
+    height: 16px;
+    width: 16px;
+    background-image: url('/Contents/Images/ImgToolbar/common-icon.png');
+    background-repeat: no-repeat;
+    background-position: -76px -178px;
+}
+/*Phần hiển thị hình ảnh*/
+.row-input-image-display {
+    height: 118px;
+    width: 100%;
+}
+/*Phần nút lựa chọn tải hoặc thay ảnh*/
+.row-input-image-select-option {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.row-input-image-upload {
+    height: 25px;
+    width: 40px;
+    background-color: #026b97;
+    border: 1px solid #026b97;
+    border-radius: 3px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+    .row-input-image-upload span {
+        display: flex;
+        justify-content: center;
+    }
+
+.row-input-image-cancel {
+    background-color: #ffffff;
+    background-image: url('/Contents/Images/ImgToolbar/common-icon.png');
+    background-repeat: no-repeat;
+    background-position: -241px -124px;
+}
+/*Phần chú thích*/
+.row-input-image-explane {
+    height: 100%;
+    width: auto;
+    color: #9e9e9e;
+    margin: 10px 15px;
+}

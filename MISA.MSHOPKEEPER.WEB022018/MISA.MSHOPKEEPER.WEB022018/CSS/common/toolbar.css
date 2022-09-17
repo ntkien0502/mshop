@@ -1,0 +1,134 @@
+﻿.toolbar-button-disable-event{
+    cursor:default !important;
+    opacity:0.5;
+    pointer-events:none !important;
+}
+/*======================================================TOOLBAR ========================================================================*/
+.toolbar {
+    height: 36px;
+    width: 100%;
+    background-color: #026b97;
+    border-width: 1px 1px 0px;
+    border-style: solid;
+    border-color: #ccc;
+    left: 0;
+    top: 0;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+/*=============================Nút thao tác có lựa chọn===========================*/
+.toolbar-button {
+    height: 100%;
+    cursor: pointer;
+    pointer-events:auto;
+}
+
+    .toolbar-button:hover {
+    }
+
+.toolbar-button-option {
+    height: 100%;
+    background-color: #026b97;
+    white-space: nowrap;
+    display: flex;
+    padding: 0px 7px;
+    align-items: center;
+    color: white;
+}
+
+    .toolbar-button-option:hover {
+        background-color: #0088c2;
+    }
+
+
+.toolbar-button-option-link {
+    width: 100%;
+    display: flex;
+    background-image: url('/Contents/Images/ImgToolbar/arrow-down-white.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: calc(100% - 4px);
+}
+
+.toolbar-button-slipbutton {
+    padding-right: 7px;
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+/*Phần icon cho button*/
+.toolbar-slipbutton-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 3px;
+    background-image: url('/Contents/Images/ImgToolbar/common-icon.png');
+    background-repeat: no-repeat;
+}
+/*Gán lại hình ảnh cho từng button*/
+.toolbar-btn-icon-add {
+    background-position: -1px -127px;
+}
+
+.toolbar-btn-icon-duplicate {
+    background-position: -976px -127px;
+}
+
+.toolbar-btn-icon-edit {
+    background-position: -77px -203px;
+}
+
+.toolbar-btn-icon-delete {
+    background-position: -1076px -127px;
+}
+
+.toolbar-btn-icon-refresh {
+    background-position: -876px -127px;
+}
+
+.toolbar-btn-icon-import {
+    background-position: -177px -127px;
+}
+
+.toolbar-btn-icon-export {
+    background-position: -127px -127px;
+}
+
+.toolbar-btn-icon-tem {
+    background-position: -27px -50px;
+}
+/*Phần chữ trong button*/
+.toolbar-slipbutton-text {
+    height: 15px;
+    padding: 0px 5px;
+    margin-top: -3px;
+}
+/*Phần hiển thị combobox*/
+.toolbar-button-slipoption {
+    height: 100%;
+    padding-left: 7px;
+    width: 20px;
+}
+/*============================== Nút thao tác không có lựa chọn =================================*/
+/*Custom lại nút từ có option thành không có option*/
+.btn-noneoption {
+    padding-right: 0px !important;
+}
+
+.btn_link_noneimage {
+    background-image: none;
+}
+/*============================== Dấu xổ ngăn cách =================================*/
+.toolbar-separator {
+    width: 1px;
+    height: 32px;
+    margin-left: 1px;
+    border-right: 1px solid #1882ae;
+}
+
+.toolbar-separator-nonemargin {
+    margin-left: 0px !important;
+}

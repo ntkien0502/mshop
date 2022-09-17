@@ -1,0 +1,60 @@
+﻿/*====================================================================Custom Jquery UI=======================================*/
+/*Phần header*/
+.ui-widget-overlay {
+    background-color: rgba(10,10,10,.4) !important;
+    opacity: 1 !important;
+}
+
+.ui-dialog-titlebar{
+    border-top:2px solid red !important;
+}
+
+.ui-widget.ui-widget-content {
+    border: 5px solid #0072bc !important;
+    border-top: none !important;
+    color: white !important;
+    background-color: #0072bc !important;
+}
+
+.ui-widget-header {
+    background: #0072bc !important;
+    color: white !important;
+    height: 30px !important;
+    font-weight: normal !important;
+    border: none !important;
+    padding: 3px 4px 1px !important;
+}
+
+.ui-widget-content {
+    background-color: #0072bc !important;
+}
+.ui-dialog .ui-dialog-title {
+    padding-top:3px !important;
+}
+
+.ui-dialog {
+    padding: 0px !important;
+}
+
+    .ui-dialog .ui-dialog-titlebar-close {
+        width: 16px !important;
+        height: 16px !important;
+        padding: 0px !important;
+        top: 8px !important;
+        margin: 0px !important;
+        border: none !important;
+        background-color: #0072bc !important;
+        background-image: url('/Contents/Images/ImgDialog/tool-sprites.png');
+        display:none !important;
+    }
+    .ui-dialog-titlebar-close{
+        display:none !important;
+        
+
+    }
+/*Phần Content*/
+.ui-dialog .ui-dialog-content {
+    padding:8px 8px 0px !important;
+    background-color:white !important ;
+}
+

@@ -1,0 +1,438 @@
+﻿/*Background màu dòng chẵn*/
+.row-even {
+    background-color: #f6f6f6;
+}
+
+.grid {
+    left: 8px;
+    right: 8px;
+    bottom: 61px;
+    position: absolute;
+    overflow: auto;
+    top: 44px;
+}
+
+.grid-content {
+    background-color: white;
+}
+/* Class thay đổi ảnh nền của check box trong grid body*/
+.grid-body-row-checkbox-icon-checked {
+    background-image: url('/Contents/Images/ImgContent/check.png') !important;
+    background-repeat: no-repeat;
+    background-position: -1px -2px !important;
+}
+/*=============================== Phần Header =========================================*/
+.grid-header {
+    height: 65px;
+    width: 100%;
+    border-left: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    background-color: #f0f0f0 !important;
+    display: flex;
+    font-family: 'Roboto',Tahoma,sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+/*Phần checkbox chọn tất cả*/
+.grid-header-checkcolumn {
+    height: 100%;
+    width: 40px;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ccc;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.grid-header-checkcolumn-icon {
+    height: 16px;
+    width: 19px;
+    background-image: url('/Contents/Images/ImgToolbar/common-icon.png');
+    background-repeat: no-repeat;
+    background-position: 0px -76px;
+}
+/*Từng cột header*/
+.grid-header-column {
+    border-right: 1px solid #ccc;
+    padding-right: 2px !important;
+    background-color: #f0f0f0 !important;
+}
+
+.grid-header-column-text {
+    height: 32px;
+    width: 100%;
+    padding: 8px 10px;
+    text-align: center;
+}
+/**/
+.grid-header-column-option-input {
+    display: flex;
+}
+
+    .grid-header-column-option-input .grid-header-column-option {
+        margin-left: 1px;
+        width: 34px !important;
+        height: 32px !important;
+        border: 1px solid #ccc;
+        background-color: white;
+        text-align: center;
+        padding-top: 8px;
+        cursor: pointer;
+        font-weight: 400;
+    }
+
+    .grid-header-column-option-input .grid-header-column-input {
+        width: 100%;
+        height: 32px;
+        border: 1px solid #ccc;
+        padding: 3px 5px;
+    }
+
+.grid-header-column-input:focus {
+    border: 1px solid #5aa9ff;
+    outline: none;
+}
+/*Định dạng lại chiều rộng từng cột header*/
+.grid-header-column-suk {
+    width: 100px;
+}
+
+.grid-header-column-productname {
+    width: 795px;
+}
+
+.grid-header-column-groupproduct {
+    width: 130px;
+}
+
+.grid-header-column-counter {
+    width: 100px;
+}
+
+.grid-header-column-price {
+    width: 110px;
+}
+
+.grid-header-column-displayscreen {
+    width: 180px;
+}
+
+.grid-header-column-category {
+    width: 120px;
+}
+
+.grid-header-column-status {
+    width: 145px;
+}
+/*Phàn header input là combobox*/
+.grid-header-column-combobox-input {
+    display: flex;
+    margin-left: 2px;
+    border: 1px solid #ccc;
+    height: 32px;
+}
+
+    .grid-header-column-combobox-input .grid-header-column-combobox {
+        width: 24px !important;
+        height: 30px !important;
+        background-color: white;
+        text-align: center;
+        padding-top: 8px;
+        cursor: pointer;
+        background-image: url('/Contents/Images/ImgHeader/arrow-down-line.png');
+        background-repeat: no-repeat;
+        background-position: 8px 15px;
+    }
+
+    .grid-header-column-combobox-input .grid-header-column-combobox-input {
+        width: 100%;
+        height: 30px;
+        border: none;
+        padding: 3px 5px;
+    }
+
+    .grid-header-column-combobox-input:focus {
+        border: none;
+        outline: none;
+    }
+/*=============================== Phần Body =========================================*/
+.grid-body {
+    height: 100%;
+    width: 100%;
+    bottom: 0px;
+    top: 64px;
+    border-left: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    position: absolute;
+}
+/*Từng dòng dữ liệu*/
+.grid-body-row {
+    height: auto;
+    width: 100%;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    display: flex;
+    border-color: #e9e9e9;
+    background-color: white;
+}
+
+    .grid-body-row:hover {
+        background-color: #cff7f2 !important;
+    }
+/*Dòng chẵn*/
+.grid-body-row-even {
+    height: auto;
+    width: 100%;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    display: flex;
+    border-color: #e9e9e9;
+    background-color: #f6f6f6;
+}
+
+    .grid-body-row-even:hover {
+        background-color: #cff7f2 !important;
+    }
+/*Check box đầu dòng*/
+.grid-body-row-checkbox {
+    height: 35px;
+    width: 40px;
+    border-right: 1px solid #e9e9e9;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.grid-body-row-checkbox-icon {
+    width: 17px;
+    height: 16px;
+    margin-left: 3px;
+    background-image: url('/Contents/Images/ImgToolbar/common-icon.png');
+    background-repeat: no-repeat;
+    background-position: -1px -76px;
+}
+
+/**/
+.grid-body-colum {
+    height: 35px;
+    border-right: 1px solid #e9e9e9;
+    display: flex;
+    align-items: center;
+    padding: 7px 10px 6px;
+    cursor: default;
+}
+/*Gán lại độ rộng các cột trong từng dòng*/
+.row-colum-sku {
+    width: 103px;
+}
+
+.row-colum-productname {
+    width: 798px;
+}
+
+    .row-colum-productname a {
+        color: #007abc;
+    }
+
+.row-colum-groupproduct {
+    width: 133px;
+}
+
+.row-colum-counter {
+    width: 103px;
+}
+
+.row-colum-price {
+    width: 113px;
+    justify-content: flex-end;
+}
+
+.row-colum-displayscreen {
+    width: 183px;
+}
+
+.row-colum-category {
+    width: 123px;
+}
+
+.row-colum-status {
+    width: 148px;
+}
+/*==================================== Phần điều kiện lọc ==========================================*/
+.filter-option {
+    height: auto;
+    background-color: white;
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 1px 2px 5px 1px #CCC;
+}
+
+.filter-option-list {
+    list-style-type: none;
+    padding: 1px 0px;
+    margin-left: 8px;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+/*từng lựa chọn trong danh sách lựa chọn*/
+.filter-option-item {
+    height: 32px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 0px 1px;
+}
+
+    .filter-option-item:hover {
+        background-color: #026b97;
+        color: #ffffff;
+    }
+
+.filter-option-item-icon {
+    margin: 4px 4px 0px 0px;
+}
+
+.filter-option-item-icon-price {
+    margin-top: 0px;
+}
+
+.filter-option-item-icon-endby {
+    margin-top: 0px;
+}
+/*Định dạng lại các lựa chọn điều kiện lọc theo từng cột*/
+.filter-nomal-option {
+    width: 124px;
+}
+
+.filter-price-option {
+    height: 162px;
+    width: 160px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 1px 2px 5px 1px #CCC;
+}
+
+.filter-displayonscreen-option {
+    width: 173px;
+}
+
+.filter-category-option {
+    width: 120px;
+}
+
+.filter-status-option {
+    width: 135px;
+}
+/*Phần lựa chọn cho vùng tài khoản*/
+.combobox-account-option {
+    width: 182px;
+}
+
+.option-account-item-icon {
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+}
+
+.option-account-item-icon-changepass {
+    background-image: url('/Contents/Images/ImgHeader/icon-change-password16.png');
+}
+
+.option-account-item-icon-feedback {
+    background-image: url('/Contents/Images/ImgHeader/icon-feedback.png');
+}
+
+.option-account-item-icon-logout {
+    background-image: url('/Contents/Images/ImgHeader/icon-logout16.png');
+}
+
+.account-option-item {
+    height: 32px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 0px 1px;
+    font-weight: 500;
+    border-bottom: 1px solid #ccc;
+}
+
+    .account-option-item:hover {
+        background-color: white !important;
+        color: #5491ae;
+    }
+
+.combobox-shop-option {
+    width: 197px;
+}
+
+/*==================================== Phần Context menu ==========================================*/
+.product-contextmenu {
+    color: #212121;
+    height: auto;
+    width: 160px;
+    background-color: aquamarine;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 1px 2px 5px 1px #CCC;
+    background-color: white;
+}
+
+.product-contextmenu-list {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    padding-left: 0px !important;
+    margin: 0px !important;
+}
+
+.product-contextmenu-option {
+    cursor: pointer;
+    display: flex;
+    padding: 6px 4px;
+}
+
+    .product-contextmenu-option:hover {
+        background-color: #026b97;
+        color: #ffffff;
+    }
+
+.product-contextmenu-option-text {
+    display: flex;
+    align-items: center;
+}
+
+.product-contextmenu-option-icon {
+    height: 24px;
+    width: 24px;
+    background-repeat: no-repeat;
+}
+
+.contextmenu-option-icon-add {
+    background-image: url('/Contents/Images/ImgToolbar/common-icon.png');
+    background-position: -148px -173px;
+}
+.contextmenu-option-icon-dupplicate {
+    background-image: url('/Contents/Images/ImgToolbar/common-icon.png');
+    background-position: -46px -173px;
+}
+.contextmenu-option-icon-edit {
+    background-image: url('/Contents/Images/ImgToolbar/common-icon.png');
+    background-position: -72px -173px;
+}
+.contextmenu-option-icon-delete {
+    background-image: url('/Contents/Images/ImgToolbar/common-icon.png');
+    background-position: -97px -173px;
+}
+.contextmenu-option-icon-refresh {
+    background-image: url('/Contents/Images/ImgToolbar/common-icon.png');
+    background-position: -123px -173px;
+}

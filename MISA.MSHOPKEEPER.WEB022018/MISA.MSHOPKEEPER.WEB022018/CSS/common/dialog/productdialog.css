@@ -1,0 +1,57 @@
+﻿/*====================================================================Custom Jquery UI=======================================*/
+/*Phần header*/
+.ui-widget-overlay {
+    background-color: rgba(10,10,10,.4) !important;
+    opacity: 1 !important;
+}
+
+
+.ui-widget.ui-widget-content {
+    border: 2px solid #dfdfdf !important;
+    border-top: none !important;
+    color: white !important;
+    background-color: #f0f0f0 !important;
+}
+
+.ui-widget-header {
+    background: #f0f0f0 !important;
+    color: #212121 !important;
+    height: 40px !important;
+    font-weight: normal !important;
+    border: none !important;
+    padding: 3px 4px 1px !important;
+}
+
+.ui-widget-content {
+    background-color: #f0f0f0 !important;
+}
+
+.ui-dialog .ui-dialog-title {
+    padding-top: 3px !important;
+    font-family: Roboto !important;
+    font-weight: 600;
+    font-size:16px !important;
+    padding:5px 10px;
+}
+
+.ui-dialog {
+    padding: 0px !important;
+}
+
+    .ui-dialog .ui-dialog-titlebar-close {
+        width: 16px !important;
+        height: 16px !important;
+        padding: 0px !important;
+        top: 13px !important;
+        right: 13px !important;
+        margin: 0px !important;
+        border: none !important;
+        background-color: #f0f0f0 !important;
+        background-image: url('/Contents/Images/ImgToolbar/common-icon.png');
+        background-position: -1102px -153px;
+    }
+    /*Phần Content*/
+    .ui-dialog .ui-dialog-content {
+        padding: 1px !important;
+        background-color: white !important;
+    }

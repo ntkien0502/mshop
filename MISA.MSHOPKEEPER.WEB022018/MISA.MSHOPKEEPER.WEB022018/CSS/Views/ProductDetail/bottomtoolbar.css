@@ -1,0 +1,12 @@
+﻿.bottomtoolbar{
+    bottom:8px;
+    left:8px;
+    right:8px;
+    height:60px;
+    background-color:white;
+    position:absolute;
+    padding: 12px 12px 12px 8px;
+    border-top:1px solid #e5e6eb;
+    display:flex;
+    align-items:center;
+}

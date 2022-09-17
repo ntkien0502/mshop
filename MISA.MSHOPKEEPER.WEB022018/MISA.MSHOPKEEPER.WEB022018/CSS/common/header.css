@@ -1,0 +1,214 @@
+﻿/*Chữ trong các control trên header được định nghĩa chung*/
+.panel-text-in-control {
+    font-size: 13px !important;
+    padding: 0px 11px 0px 5px;
+    height: 20px;
+    white-space: nowrap;
+}
+/*Nút lựa chọn combobox được định nghĩa chung*/
+.panel-select-button {
+    width: 20px;
+    height: 10px;
+    background-image: url('/Contents/Images/ImgHeader/arrow-down-line.png');
+    background-repeat: no-repeat;
+    background-position-y: 4px;
+}
+
+/*============================================================LOGO============================================================*/
+.logo {
+    height: 100%;
+    width: 140px;
+    background-color: #006189;
+    display: flex;
+    padding-top: 13px;
+}
+
+.logo-icon {
+    width: 120px;
+    height: 19px;
+    margin-left: 10px;
+}
+
+.panel-title-text-catalog {
+    color: #212121;
+    margin-right: 4px;
+}
+/*============================================================PANEL============================================================*/
+.header-panel {
+    left: 140px;
+    right: 0px;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    font-family: 'Roboto',Tahoma,sans-serif;
+    color: #212121;
+    white-space: nowrap;
+}
+
+    /*Panel Title (Chữ hàng hóa)========================================*/
+    .header-panel .panel-title {
+        height: 100%;
+        left: 0px;
+        display: flex;
+        align-items: center;
+        width: 99px !important;
+        position: absolute;
+    }
+
+.panel-title-text {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    height: 17px;
+    align-items: center;
+    display: flex;
+    padding-left: 21px;
+}
+
+/*Phần các lựa chọn trên Header=========================================*/
+.header-panel .panel-item {
+    height: 100%;
+    position: absolute;
+    flex-direction: row-reverse;
+    left: 99px;
+    display: flex;
+    right: 102px;
+    align-items: center;
+}
+
+.panel-shop-select {
+    margin-top: 1px;
+    width: 12px;
+}
+
+.panel-shop-name {
+    font-weight: 500;
+    padding: 1px 5px;
+}
+/*Nút quay lại trang đầu*/
+.panel-back {
+    height: 26px;
+    right: 589px;
+    width: auto;
+    display: flex;
+    cursor: pointer;
+    border-right: 1px solid #e1e1e1;
+    padding-right: 8px;
+    margin-top: 5px;
+    margin-right: 24px;
+}
+
+.panel-back-text:hover {
+    color: #0088c2;
+    font-weight: 600;
+}
+/*Phần lựa chọn cửa hàng*/
+.panel-shop {
+    width: auto;
+    height: 32px;
+    right: 368px;
+    border: 1px solid #ccc;
+    display: flex;
+    border-radius: 3px;
+    padding: 7px;
+    cursor: pointer;
+    align-items: center;
+    margin-right: 9px;
+}
+
+.panel-back-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url('/Contents/Images/ImgHeader/back.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+.panel-back-text {
+    font-size: 12px;
+    padding: 2px 5px 0px 5px;
+    color: #026b97;
+    font-weight: 500;
+}
+/*Phần lựa chọn Account*/
+.panel-account {
+    height: 32px;
+    width: auto;
+    right: 201px;
+    display: flex;
+    padding: 7px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.panel-account-icon {
+    height: 28px;
+    width: 28px;
+    margin-right: 3px;
+    display: block;
+    background-image: url(https://demoquanao.mshopkeeper.vn/backendg1/api/Image?id=&type=0&w=50&h=50&CompanyCode=demoquanao);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    background-size: 28px;
+}
+
+.panel-account-name {
+    font-weight: 700;
+    padding: 2px 11px 0px 5px;
+}
+
+/*Phần chọn thông báo và trợ giúp=======================================*/
+.header-panel .panel-task {
+    right: 1px;
+    width: 100px;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+/*Vùng chứa các nút lựa chọn*/
+.panel-task-item {
+    width: 50px;
+    height: 100%;
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid white;
+    margin-right: 1px;
+}
+
+.panel-task-item-select {
+    width: 46px;
+    height: 36px;
+    margin: 8px 2px 0px 2px;
+    padding: 7px;
+}
+/*Khung Icon và gán icon cho từng nút*/
+.panel-task-item-select-icon {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.panel-icon-notify {
+    background-image: url('/Contents/Images/ImgHeader/notify-18.png');
+}
+
+    .panel-icon-notify:hover {
+        background-image: url('/Contents/Images/ImgHeader/notify-hover-18.png');
+    }
+
+.panel-icon-help {
+    background-image: url('/Contents/Images/ImgHeader/icon_help_18.png');
+    background-position: 6px 1px;
+}
+
+    .panel-icon-help:hover {
+        background-image: url('/Contents/Images/ImgHeader/icon-help-18-hover.png');
+        background-position: 6px 1px;
+    }
