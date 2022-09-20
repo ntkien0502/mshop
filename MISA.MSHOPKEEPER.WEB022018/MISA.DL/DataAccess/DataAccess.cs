@@ -18,7 +18,7 @@ namespace MISA.DL
 
         protected SqlConnection _sqlConnection;
         protected SqlCommand _sqlCommand;
-        protected string _connectionString = @"Data Source=database\sql2014;Initial Catalog=MISA.Mshopkeeper.NTKIEN_Development;Integrated Security=True";
+        protected string _connectionString = @"Data Source=NTKIEN2\MISASME2021;Initial Catalog=MISA.Mshopkeeper.NTKIEN_Development;Integrated Security=True";
 
         #endregion
 

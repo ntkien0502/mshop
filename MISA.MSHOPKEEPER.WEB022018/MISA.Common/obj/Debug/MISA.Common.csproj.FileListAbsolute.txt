@@ -3,3 +3,9 @@ D:\NTKIEN\SME02\MISA.MSHOPKEEPER.WEB022018\MISA.Common\bin\Debug\MISA.Common.pdb
 D:\NTKIEN\SME02\MISA.MSHOPKEEPER.WEB022018\MISA.Common\obj\Debug\MISA.Common.csproj.CoreCompileInputs.cache
 D:\NTKIEN\SME02\MISA.MSHOPKEEPER.WEB022018\MISA.Common\obj\Debug\MISA.Common.dll
 D:\NTKIEN\SME02\MISA.MSHOPKEEPER.WEB022018\MISA.Common\obj\Debug\MISA.Common.pdb
+C:\Users\ADMIN\Documents\MSHOP\MISA.MSHOPKEEPER.WEB022018\MISA.Common\bin\Debug\MISA.Common.dll
+C:\Users\ADMIN\Documents\MSHOP\MISA.MSHOPKEEPER.WEB022018\MISA.Common\bin\Debug\MISA.Common.pdb
+C:\Users\ADMIN\Documents\MSHOP\MISA.MSHOPKEEPER.WEB022018\MISA.Common\obj\Debug\MISA.Common.csprojAssemblyReference.cache
+C:\Users\ADMIN\Documents\MSHOP\MISA.MSHOPKEEPER.WEB022018\MISA.Common\obj\Debug\MISA.Common.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\MSHOP\MISA.MSHOPKEEPER.WEB022018\MISA.Common\obj\Debug\MISA.Common.dll
+C:\Users\ADMIN\Documents\MSHOP\MISA.MSHOPKEEPER.WEB022018\MISA.Common\obj\Debug\MISA.Common.pdb

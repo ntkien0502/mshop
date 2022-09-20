@@ -4,3 +4,9 @@ D:\NTKIEN\SME02\MISA.MSHOPKEEPER.WEB022018\MISA.Entity\obj\Debug\MISA.Entity.csp
 D:\NTKIEN\SME02\MISA.MSHOPKEEPER.WEB022018\MISA.Entity\obj\Debug\MISA.Entity.dll
 D:\NTKIEN\SME02\MISA.MSHOPKEEPER.WEB022018\MISA.Entity\obj\Debug\MISA.Entity.pdb
 D:\NTKIEN\SME02\MISA.MSHOPKEEPER.WEB022018\MISA.Entity\obj\Debug\MISA.Entity.csprojAssemblyReference.cache
+C:\Users\ADMIN\Documents\MSHOP\MISA.MSHOPKEEPER.WEB022018\MISA.Entity\obj\Debug\MISA.Entity.csprojAssemblyReference.cache
+C:\Users\ADMIN\Documents\MSHOP\MISA.MSHOPKEEPER.WEB022018\MISA.Entity\obj\Debug\MISA.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\MSHOP\MISA.MSHOPKEEPER.WEB022018\MISA.Entity\obj\Debug\MISA.Entity.dll
+C:\Users\ADMIN\Documents\MSHOP\MISA.MSHOPKEEPER.WEB022018\MISA.Entity\obj\Debug\MISA.Entity.pdb
+C:\Users\ADMIN\Documents\MSHOP\MISA.MSHOPKEEPER.WEB022018\MISA.Entity\bin\Debug\MISA.Entity.dll
+C:\Users\ADMIN\Documents\MSHOP\MISA.MSHOPKEEPER.WEB022018\MISA.Entity\bin\Debug\MISA.Entity.pdb

@@ -49,7 +49,7 @@ namespace MISA.DL
         {
             var listProduct = new List<Product>();
             // Lấy dữ liệu
-            _sqlCommand.CommandText = "[dbo].[Proc_SelectCustomersPaging]";
+            _sqlCommand.CommandText = "[dbo].[Proc_SelectProductPaging]";
             _sqlCommand.Parameters.AddWithValue("@PageNumber", pageNumber);
             _sqlCommand.Parameters.AddWithValue("@PageSize", pageSize);
             _sqlCommand.Parameters.AddWithValue("@Where", where);
